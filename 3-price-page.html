@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Прайс-лист «Бородинский»</title>
+    <link href="css/barbershop-stylesheets.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <style> .main-navigation a, .user-block a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .btn {
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    .breadcrumbs a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .social-btn{
+      margin: 0 3px;
+      text-indent: -5000px;
+    }
+    .social-btn-vk {
+      background-position: 0 -43px;
+    }
+
+    .social-btn-fb {
+      background-position: -43px -43px;
+    }
+
+    .social-btn-inst {
+      background-position: -86px -43px;
+    }
+    .footer-copyright a {
+      padding: 0 20px 0 20px;
+    }
+    </style>
+  </head>
+  <body>
+  <header class="secondary_page-main_header">
+    <div class="container clearfix">
+      <div class="header-logo">
+        <a href="#">
+          <img src="img/Logo.png" alt="logo">
+        </a>
+      </div>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Новости</a></li>
+          <li class="active"><a href="#">Прайс-лист</a></li>
+          <li><a href="#">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a href="#">Вход</a>
+      </div>
+    </div>
+  </header>
+  <main class="secondary_page-content clearfix">
+    <div class="container clearfix">
+      <div class="secondary_page-header">
+        <h2>Прайс-лист</h2>
+        <div class="breadcrumbs">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li class="active"><span>Прайс-лист</span></li>
+          </ul>
+        </div>
+      </div>
+      <h1 class="price_page-tittle">Истино мужская классика</h1>
+      <div class="info-block">
+        <div class="tools-list">
+          <h3 class="info-block-tittle">Мы используем только лучшие средства:</h3>
+          <ul>
+            <li>Baxter of California</li>
+            <li>Mr Natty</li>
+            <li>Suavecito</li>
+            <li>Malin+Goetz</li>
+          </ul>
+        </div>
+        <div class="content-info">
+          <h3 class="info-block-tittle">Несколько слов о нас:</h3>
+          <p>Наша парикмахерская занимается исключительно мужскими
+            стрижками. Стрижка каждого клиента для нас - это уникальная
+            и продуманная до мелочей работа. Мы не работаем на
+            количество, мы делаем качество.</p>
+        </div>
+      </div>
+      <div class="info-block">
+        <div class="price-table">
+          <h3 class="info-block-tittle">Цены на услуги наших мастеров</h3>
+          <table>
+            <tr>
+              <td>Стрижка</td>
+              <td>1500 р.</td>
+            </tr>
+            <tr>
+              <td>Стрижка бороды</td>
+              <td>500 р.</td>
+            </tr>
+            <tr>
+              <td>Накрутка усов</td>
+              <td>350 р.</td>
+            </tr>
+          </table>
+        </div>
+        <div class="location-info">
+          <p>Наща мастерская расположена в центре города, поэтому
+            сделать стильную стрижку можно в любое время, даже в
+            обеденный перерыв. Здесь вы можете погрузиться в удобную
+            для вас атмосферу, чувстовать себя комфортно и свободно!</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <div class="container">
+      <section class="footer-contact">
+        Барбершоп «Бородинский»<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="#">Как нас найти?</a><br>
+        <a href="tel:+78126660266">Телефон: +7 (812) 666-02-66</a>
+      </section>
+      <section class="footer-social">
+        <p>Давайте дружить!</p>
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      </section>
+      <section class="footer-copyright">
+        <p>Разработано:</p>
+        <a class="btn" href="https://htmlacademy.ru">HTMLAcademy.ru</a>
+      </section>
+    </div>
+  </footer>
+  <div class="popup-content">
+    <button class="popup-content-close" type="button" title="Закрыть">Закрыть</button>
+    <h2 class="popup-content-title">Личный кабинет</h2>
+    <p>Введите свой логин и пароль.</p>
+    <form class="login-form" action="#" method="post">
+      <input class="login-user" type="text" name="login" placeholder="Логин">
+      <input class="password-user" type="password" name="password" placeholder="Пароль">
+      <label class="login-checkbox">
+        <input type="checkbox" name="remember" checked>
+        <span class="checkbox-indicator"></span>
+        Запомните меня
+      </label>
+      <a class="restore" href="#">Я забыл пароль!</a><br>
+      <button class="btn" type="submit">Войти</button>
+    </form>
+  </div>
+  <div class="popup-content-map">
+    <button class="popup-content-close" type="button" title="Закрыть">Закрыть</button>
+  </div>
+  <div class="popup-overlay"></div>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп «Бородинский»</title>
+    <link href="css/barbershop-stylesheets.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <style> .main_page-navigation a, .user-block a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        .btn {
+          background: #000;
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: 14px;
+        }
+        .gallery-prev, .content-contact-info a {
+          margin-right: 20px;
+        }
+        .content-appointment .btn {
+          margin-top: 12px;
+        }
+        .social-btn{
+          margin: 0 3px;
+          text-indent: -5000px;
+        }
+        .social-btn-vk {
+          background-position: 0 -43px;
+        }
+
+        .social-btn-fb {
+          background-position: -43px -43px;
+        }
+
+        .social-btn-inst {
+          background-position: -86px -43px;
+        }
+        .footer-copyright a {
+          padding: 0 20px 0 20px;
+        }
+      </style>
+  </head>
+  <body>
+    <header class="main_page-header">
+      <div class="container">
+        <nav class="main_page-navigation">
+          <ul>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Прайс-лист</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+    <main class="main_page-content">
+      <div class="container">
+        <div class="main-logo">
+          <img src="img/BORODINSKI-logo.png" alt="Барбершоп «Бородинский»">
+        </div>
+      </div>
+      <section class="features container clearfix">
+        <div class="features-item">
+          <b class="features-name">Быстро</b>
+          <p>Мы делаем свою работу быстро! Два часа
+            пролетят незаметно и вы - счастливый
+            обладатель стильной стрижки-минутки!</p>
+        </div>
+        <div class="features-item">
+          <b class="features-name">Круто</b>
+          <p>Забудьте, как вы стриглись раньше.
+            Мы сделаем из вас звезду футбола или кино!
+            Во всяком случае внешне.</p>
+        </div>
+        <div class="features-item">
+          <b class="features-name">Дорого</b>
+          <p>Наши мастера — профессионалы своего дела
+            и не могут стоить дешево. К тому же, разве цена
+            не дает определенный статус?</p>
+        </div>
+      </section>
+      <div class="content-block container clearfix">
+        <div class="content-news">
+          <h2 class="content-tittle">Новости</h2>
+          <ul class="news-preview">
+            <li>
+              <p>Нам наконец завезли Ягермайстер! Теперь вы
+                можете пропустить стаканчик во время стрижки</p>
+              <time datetime="2016-01-11">11 января</time>
+            </li>
+            <li>
+              <p>В нашей команде пополнение, Борис «Бритва»
+                Стригунец, обладатель множества титулов и
+                наград пополнил наши стройные ряды</p>
+              <time datetime="2016-01-18">18 январая</time>
+            </li>
+          </ul>
+          <a class="btn" href="#">Все новости</a>
+        </div>
+        <div class="content-gallery">
+          <h2 class="content-tittle">Фотогалерея</h2>
+          <div class="gallery">
+            <figure class="gallery-content">
+              <img src="img/gallery-photo1.jpg" alt="gallery-photo1">
+            </figure>
+            <button class="btn gallery-prev">Назад</button>
+            <button class="btn gallry-next">Вперёд</button>
+          </div>
+        </div>
+      </div>
+      <div class="content-block container clearfix">
+        <div class="content-contact-info">
+          <h2 class="content-tittle">Контактная информация</h2>
+          <p>
+            Барбершоп "Бородинский"<br>
+            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            Телефон: +7 (812) 666-02-66
+          </p>
+          <p>
+            Время работы:<br>
+            пн - пт: с 10:00 до 22:00<br>
+            сб - вс: с 10:00 до 19:00
+          </p>
+          <a class="btn" href="#">Как проехать</a>
+          <a class="btn" href="#">Обратная связь</a>
+        </div>
+        <div class="content-appointment">
+          <h2 class="content-tittle">Записаться</h2>
+          <p>Укажите желаемую дату и время и мы свяжемся<br>
+            с вами для подтверждения брони</p>
+          <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+            <input type="text" name="date" value="" placeholder="Дата">
+            <input type="text" name="time" value="" placeholder="Время">
+            <input type="text" name="name" value="" placeholder="Ваше имя">
+            <input type="tel" name="phone" value="" placeholder="Телефон">
+            <button class="btn" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contact">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          <a href="tel:+78126660266">Телефон: +7 (812) 666-02-66</a>
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTMLAcademy.ru</a>
+        </section>
+      </div>
+    </footer>
+    <div class="popup-content">
+      <button class="popup-content-close" type="button" title="Закрыть">Закрыть</button>
+      <h2 class="popup-content-title">Личный кабинет</h2>
+      <p>Введите свой логин и пароль.</p>
+      <form class="login-form" action="#" method="post">
+        <input class="login-user" type="text" name="login" placeholder="Логин">
+        <input class="password-user" type="password" name="password" placeholder="Пароль">
+        <label class="login-checkbox">
+          <input type="checkbox" name="remember" checked>
+          <span class="checkbox-indicator"></span>
+          Запомните меня
+        </label>
+        <a class="restore" href="#">Я забыл пароль!</a><br>
+        <button class="btn" type="submit">Войти</button>
+      </form>
+    </div>
+    <div class="popup-content-map">
+      <button class="popup-content-close" type="button" title="Закрыть">Закрыть</button>
+    </div>
+    <div class="popup-overlay"></div>
+  </body>
+</html>
